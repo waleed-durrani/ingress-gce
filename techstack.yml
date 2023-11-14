@@ -1,7 +1,7 @@
 repo_name: waleed-durrani/ingress-gce
-report_id: b287224475785797d5f354c50089c4f2
+report_id: 85bc63f508423be854c2f58a4d8ef16b
 repo_type: Public
-timestamp: '2023-11-14T06:29:46+00:00'
+timestamp: '2023-11-14T07:00:02+00:00'
 requested_by: k8s-ci-robot
 provider: github
 branch: master
