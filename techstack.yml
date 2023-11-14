@@ -1,0 +1,205 @@
+repo_name: waleed-durrani/ingress-gce
+report_id: b287224475785797d5f354c50089c4f2
+repo_type: Public
+timestamp: '2023-11-14T06:29:46+00:00'
+requested_by: k8s-ci-robot
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: vendor/k8s.io/cloud-provider/go.mod
+  last_updated_by: Spencer Hance
+  last_updated_on: 2019-04-23 22:39:41.000000000 Z
+- name: Apache Thrift
+  description: Software framework for scalable cross-language services development
+  website_url: https://thrift.apache.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/2263/apache.png
+  detection_source: vendor/go.opencensus.io/go.mod
+  last_updated_by: Minhan Xia
+  last_updated_on: 2019-06-12 17:59:12.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source: go.mod
+  last_updated_by: Spencer Hance
+  last_updated_on: 2019-04-23 22:39:41.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source: vendor/google.golang.org/grpc/go.mod
+  last_updated_by: Minhan Xia
+  last_updated_on: 2019-06-12 17:59:12.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source: vendor/github.com/json-iterator/go/.codecov.yml
+  last_updated_by: Nick Sardo
+  last_updated_on: 2017-09-29 17:12:14.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: vendor/golang.org/x/net/http2/Dockerfile
+  last_updated_by: Prashanth Balasubramanian
+  last_updated_on: 2016-06-21 18:58:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source: vendor/k8s.io/cloud-provider/go.mod
+  last_updated_by: Spencer Hance
+  last_updated_on: 2019-04-23 22:39:41.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source: vendor/go.opencensus.io/go.mod
+  last_updated_by: Minhan Xia
+  last_updated_on: 2019-06-12 17:59:12.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source: go.mod
+  last_updated_by: Vinay Bannai
+  last_updated_on: 2019-04-25 03:27:12.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source: vendor/github.com/json-iterator/go/Gopkg.toml
+  last_updated_by: Spencer Hance
+  last_updated_on: 2019-04-23 22:39:41.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: vendor/sigs.k8s.io/yaml/.travis.yml
+  last_updated_by: Rohit Ramkumar
+  last_updated_on: 2018-05-16 15:16:14.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: vendor/k8s.io/cloud-provider/go.mod
+  last_updated_by: Spencer Hance
+  last_updated_on: 2019-04-23 22:39:41.000000000 Z
+- name: OAuth2
+  description: An open standard for access delegation
+  website_url: https://oauth.net/2/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/4507/oauth2-logo.png
+  detection_source: go.mod
+  last_updated_by: Minhan Xia
+  last_updated_on: 2019-06-12 17:59:12.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source: vendor/golang.org/x/net/http2/Dockerfile
+  last_updated_by: Prashanth Balasubramanian
+  last_updated_on: 2016-06-21 18:58:43.000000000 Z
